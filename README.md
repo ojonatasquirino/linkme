@@ -4,7 +4,7 @@
 #
 
 <p> Sempre quis organizar todos os meus links de redes sociais e profissionais em apenas um lugar, mas nunca quis pagar pelos planos de assinatura de plataforma para customizá-los.
-Diante dessa situação, desenvolvi e customizei o meu prórpio site de link, o linkMe. Aqui estão as minhas principais plataformas de contato e interação digital. </p>
+Diante dessa situação, desenvolvi e customizei o meu próprio site de link, o linkMe. Aqui estão as minhas principais plataformas de contato e interação digital. </p>
 
 ## ambiente e ferramentas de codificação
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-0D1117?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC&labelColor=0D1117)
