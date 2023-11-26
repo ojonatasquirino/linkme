@@ -1,0 +1,25 @@
+/* Importação de fontes para usar no projeto */
+
+@font-face {
+  font-family: 'SpaceGrotesk-Bold';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url('../../../files/fonts/SpaceGrotesk-Bold.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk-Medium';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url('../../../files/fonts/SpaceGrotesk-Medium.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk-SemiBold';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url('../../../files/fonts/SpaceGrotesk-SemiBold.ttf') format('woff');
+}

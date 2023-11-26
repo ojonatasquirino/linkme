@@ -1,0 +1,6 @@
+/* CSS global que importa todos os outros CSS */
+@import './fonts.css';
+@import './normalize.css';
+@import './scrollbar.css';
+@import './variables.css';
+@import './animations.css';

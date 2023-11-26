@@ -1,0 +1,173 @@
+/* <section class="apresentacao"> */
+section.apresentacao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+}
+/* <div class="faixa"> */
+section.apresentacao .faixa {
+  width: 2000px;
+  height: 500px;
+  background-color: var(--cor-principal);
+  box-shadow: 0 0 50px 0 var(--cor-principal);
+  position: absolute;
+  z-index: 1;
+  animation: rodandofaixa 10s linear infinite;
+}
+/* Animação que faz a faixa girar */
+@keyframes rodandofaixa {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* <div class="conteudo"> */
+section.apresentacao .conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(0deg, var(--cor-branco), var(--cor-cinza-claro));
+  background: -webkit-linear-gradient(0deg, var(--cor-branco), var(--cor-cinza-claro));
+  border-radius: 10px;
+  padding: 60px 20px;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+section.apresentacao .conteudo .foto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 4;
+  border-radius: 50%;
+  box-shadow: 1px 1px 25px #000000bf;
+}
+
+/* imagem da <div class="foto"> */
+section.apresentacao .conteudo .foto img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+}
+/* <div class="informacao"> */
+section.apresentacao .conteudo .informacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  z-index: 4;
+  margin: 30px 0 10px 0;
+}
+section.apresentacao .conteudo .informacao h2 {
+  font-family: var(--bold);
+  font-size: 1.2rem;
+  color: var(--cor-principal);
+}
+section.apresentacao .conteudo .informacao p {
+  font-family: var(--regular);
+  font-size: 0.9rem;
+  color: var(--cor-preto);
+  line-height: 1.5;
+  margin: 5px 0 0 0;
+}
+/* <div class="links"> */
+section.apresentacao .conteudo .links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  z-index: 4;
+}
+/* Link da <div class="links"> */
+section.apresentacao .conteudo .links a {
+  align-items: center;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 10px 0 0 0;
+  transition: all 0.3s;
+}
+section.apresentacao .conteudo .links a:hover .texto h3 { 
+color: var(--cor-branco)
+}
+
+section.apresentacao .conteudo .links a:hover {
+  background-color: rgba(0, 0, 0, 0.34);
+  transition: 2ms ease-in-out;
+}
+
+section.apresentacao .conteudo .links a .texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
+section.apresentacao .conteudo .links a .texto h3 {
+  font-family: var(--bold);
+  font-size: 1rem;
+  color: var(--cor-preto); 
+}
+
+section.apresentacao .conteudo .links a .texto p {
+  font-family: var(--regular);
+  font-size: 0.8rem;
+  color: var(--cor-preto);
+  opacity: 0.5;
+  margin: 5px 0 0 0;
+}
+
+section.apresentacao .conteudo .informacao p a {
+  font-weight: 800;
+  color: var(--cor-preto);
+  text-decoration: underline;
+}
+
+
+/* Responsivo */
+@media screen and (max-width: 1000px) {
+  /* <section class="apresentacao"> */
+  section.apresentacao {
+    padding: 10px;
+  }
+  /* <div class="faixa"> */
+  section.apresentacao .faixa {
+    height: 200px;
+  }
+  /* <div class="conteudo"> */
+  section.apresentacao .conteudo {
+    padding: 50px 20px;
+  }
+  /* <div class="linha"> */
+  section.apresentacao .conteudo .foto .linha {
+    width: 170px;
+    height: 170px;
+  }
+  /* imagem da <div class="foto"> */
+  section.apresentacao .conteudo .foto img {
+    max-width: 150px;
+  }
+  /* Link da <div class="links"> */
+  section.apresentacao .conteudo .links a .icone img {
+    max-width: 30px;
+  }
+  section.apresentacao .conteudo .links a .texto {
+    padding: 15px;
+  }
+}

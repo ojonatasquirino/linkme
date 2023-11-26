@@ -1,0 +1,87 @@
+/* 
+Esse é um arquivo CSS para normalizar o seu site em todos os navegadores
+como se fosse uma configuração padrão 
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+	font-size: 100%;
+	font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  background-color: var(--cor-cinza-claro);
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: var(--cor-cinza-claro);
+  scroll-behavior: smooth;
+}
+::selection {
+  color: var(--cor-branco);
+  background-color: var(--cor-preto);
+}
+a,img,svg,button {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -khtml-user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.0);
+  -webkit-text-size-adjust: none;
+  -webkit-touch-callout: none;
+  -o-user-select: none;
+}
+a {
+  background-color: transparent;
+  cursor: pointer;
+}
+img {
+  border-style: none;
+}
+button {
+  font-family: inherit;
+  line-height: 1;
+  margin: 0;
+  -moz-appearance: none !important;
+  -webkit-appearance: button;
+  text-transform: none;
+  overflow: visible;
+  cursor: pointer;
+}
+button * {
+  pointer-events: none;
+}
+input {
+  font-family: inherit;
+  line-height: 1;
+  -moz-appearance: none !important;
+  overflow: visible;
+}
+textarea {
+  font-family: inherit;
+  line-height: 1;
+  -moz-appearance: none !important;
+  overflow: auto;
+}
+[type="button"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner {
+  border-style: none;
+}
+[hidden] {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
