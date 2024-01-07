@@ -11,3 +11,11 @@
   --regular: 'SpaceGrotesk-Medium';
   --bold: 'SpaceGrotesk-Bold';
 }
+
+/* variável de cores degrade*/
+
+:root {
+  --gradient-titulo: linear-gradient(
+    to top,
+    rgba(140, 140, 140, 0.499), rgba(20, 20, 20, 0.937),  rgba(28, 28, 28, 0.937));
+}

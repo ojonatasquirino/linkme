@@ -74,8 +74,12 @@ section.apresentacao .conteudo .informacao {
 }
 section.apresentacao .conteudo .informacao h2 {
   font-family: var(--bold);
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: var(--cor-principal);
+  background-image: var(--gradient-titulo);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 section.apresentacao .conteudo .informacao p {
   font-family: var(--regular);
