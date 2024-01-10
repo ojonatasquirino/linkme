@@ -83,7 +83,7 @@ section.apresentacao .conteudo .informacao h2 {
 }
 section.apresentacao .conteudo .informacao p {
   font-family: var(--regular);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: var(--cor-preto);
   line-height: 1.5;
   margin: 5px 0 0 0;
@@ -131,16 +131,10 @@ section.apresentacao .conteudo .links a .texto h3 {
 
 section.apresentacao .conteudo .links a .texto p {
   font-family: var(--regular);
-  font-size: 0.8rem;
+  font-size: 0.rem;
   color: var(--cor-preto);
   opacity: 0.5;
   margin: 5px 0 0 0;
-}
-
-section.apresentacao .conteudo .informacao p a {
-  font-weight: 800;
-  color: var(--cor-preto);
-  text-decoration: underline;
 }
 
 
