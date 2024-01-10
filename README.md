@@ -22,6 +22,7 @@
 - [tecnologias utilizadas](#id04)
 - [ambiente de codificação](#id05)
 - [clonagem e instalação](#id06)
+- [deploy e implatação](#id06.01)
 - [autoria](#id07)
 
 
@@ -86,6 +87,31 @@ ou
 
 yarn start
 ```
+
+# deploy e implantação <a name="id06.01"></a>
+
+
+<div  align='center'> 
+
+[![Interface](https://img.shields.io/badge/visualizar_linkMe-000?style=for-the-badge&logo=&logoColor=054595)](https://linkme-delta.vercel.app/)
+
+</div>
+
+
+# responsividade  <a name="id06.02"></a>
+
+## mobile 
+
+![mobile](image-4.png)
+
+
+
+## desktop 
+
+[comment]: <> (adicione a imagem)
+
+ ![Alt text](image-3.png)
+
 
 
 
