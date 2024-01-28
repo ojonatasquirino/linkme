@@ -83,7 +83,7 @@ section.apresentacao .conteudo .informacao h2 {
 }
 section.apresentacao .conteudo .informacao p {
   font-family: var(--regular);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: var(--cor-preto);
   line-height: 1;
   margin: 5px 0 0 0;
