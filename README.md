@@ -79,21 +79,6 @@ git clone https://github.com/ojonatasquirino/linkme.git
 </div>
 
 
-# responsividade  <a name="id06.02"></a>
-
-## mobile 
-
-![mobile](image-4.png)
-
-
-
-## desktop 
-
-[comment]: <> (adicione a imagem)
-
- ![Alt text](image-3.png)
-
-
 
 
 [comment]: <> (Adicione o link da implatação, se houver)
